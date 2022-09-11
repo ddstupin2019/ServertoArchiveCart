@@ -37,6 +37,7 @@ public class CartaRepozitores {
     }
 
     public Carta getNoVIrCart(){
-        return (Carta) jdbcTemplate.query("select * from \"NoVirificateCart\" where \"id\">?", new CartaMapper(), -1);
+        List<Carta> c=jdbcTemplate.query("select * from \"NoVirificateCart\" where \"id\">?", new CartaMapper(), -1);
+        return c.get(0);
     }
 }
