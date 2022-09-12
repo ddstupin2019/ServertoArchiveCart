@@ -14,9 +14,7 @@
 	<name>demo</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
-		<java.version>17</java.version>
-		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<mainClass>com.example.demo.DemoApplication</mainClass>
+		<java.version>8</java.version>
 	</properties>
 	<dependencies>
 		<dependency>
